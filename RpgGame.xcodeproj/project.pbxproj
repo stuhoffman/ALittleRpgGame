@@ -12,6 +12,9 @@
 		207709CF1C7BB9EC00B4D220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207709CD1C7BB9EC00B4D220 /* Main.storyboard */; };
 		207709D11C7BB9EC00B4D220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207709D01C7BB9EC00B4D220 /* Assets.xcassets */; };
 		207709D41C7BB9EC00B4D220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207709D21C7BB9EC00B4D220 /* LaunchScreen.storyboard */; };
+		207709DC1C7BBCA200B4D220 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207709DB1C7BBCA200B4D220 /* Character.swift */; };
+		207709DE1C7BBDE200B4D220 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207709DD1C7BBDE200B4D220 /* Player.swift */; };
+		207709E01C7BBF5E00B4D220 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207709DF1C7BBF5E00B4D220 /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		207709D01C7BB9EC00B4D220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		207709D31C7BB9EC00B4D220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		207709D51C7BB9EC00B4D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207709DB1C7BBCA200B4D220 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		207709DD1C7BBDE200B4D220 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		207709DF1C7BBF5E00B4D220 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				207709D01C7BB9EC00B4D220 /* Assets.xcassets */,
 				207709D21C7BB9EC00B4D220 /* LaunchScreen.storyboard */,
 				207709D51C7BB9EC00B4D220 /* Info.plist */,
+				207709DB1C7BBCA200B4D220 /* Character.swift */,
+				207709DD1C7BBDE200B4D220 /* Player.swift */,
+				207709DF1C7BBF5E00B4D220 /* Enemy.swift */,
 			);
 			path = RpgGame;
 			sourceTree = "<group>";
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207709DE1C7BBDE200B4D220 /* Player.swift in Sources */,
+				207709E01C7BBF5E00B4D220 /* Enemy.swift in Sources */,
+				207709DC1C7BBCA200B4D220 /* Character.swift in Sources */,
 				207709CC1C7BB9EC00B4D220 /* ViewController.swift in Sources */,
 				207709CA1C7BB9EC00B4D220 /* AppDelegate.swift in Sources */,
 			);
