@@ -23,7 +23,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="h1f-dQ-Ke4">
                                 <rect key="frame" x="0.0" y="534" width="600" height="127"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chest" translatesAutoresizingMaskIntoConstraints="NO" id="xa6-jP-w3x">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chest" translatesAutoresizingMaskIntoConstraints="NO" id="xa6-jP-w3x">
                                 <rect key="frame" x="417" y="403" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="RA0-wm-15X"/>
