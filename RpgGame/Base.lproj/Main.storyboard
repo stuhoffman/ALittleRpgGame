@@ -16,11 +16,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="GuW-9L-Cb8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="h1f-dQ-Ke4">
+                                <rect key="frame" x="0.0" y="534" width="600" height="127"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chest" translatesAutoresizingMaskIntoConstraints="NO" id="xa6-jP-w3x">
+                                <rect key="frame" x="417" y="403" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="RA0-wm-15X"/>
+                                    <constraint firstAttribute="width" constant="240" id="YX1-VH-M9e"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h1f-dQ-Ke4" firstAttribute="bottom" secondItem="xa6-jP-w3x" secondAttribute="bottom" constant="163" id="1je-3n-DqS"/>
+                            <constraint firstAttribute="trailing" secondItem="GuW-9L-Cb8" secondAttribute="trailing" id="OFH-DG-Uqs"/>
+                            <constraint firstAttribute="bottom" secondItem="h1f-dQ-Ke4" secondAttribute="bottom" constant="61" id="Scp-qo-zlb"/>
+                            <constraint firstItem="GuW-9L-Cb8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YrM-4w-n2Q"/>
+                            <constraint firstAttribute="bottom" secondItem="h1f-dQ-Ke4" secondAttribute="bottom" constant="-80" id="cki-c3-T1W"/>
+                            <constraint firstAttribute="trailing" secondItem="h1f-dQ-Ke4" secondAttribute="trailing" id="dSL-39-e6X"/>
+                            <constraint firstItem="h1f-dQ-Ke4" firstAttribute="trailing" secondItem="xa6-jP-w3x" secondAttribute="trailing" constant="-54" id="pXV-z5-Bbi"/>
+                            <constraint firstItem="h1f-dQ-Ke4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rSE-uf-ANg"/>
+                            <constraint firstItem="GuW-9L-Cb8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sCr-bD-A5s"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="778" y="655"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="768" height="1024"/>
+        <image name="chest" width="393" height="440"/>
+        <image name="ground" width="768" height="164"/>
+    </resources>
 </document>
