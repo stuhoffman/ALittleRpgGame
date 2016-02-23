@@ -8,7 +8,7 @@
 
 import Foundation
 
-class PLayer: Character {
+class Player: Character {
     private var _name = "Player"
     var name: String {
         get {
@@ -30,5 +30,8 @@ class PLayer: Character {
         _name = name
     }
     
+    func addItemToInventory(item: String) {
+        _inventory.append(item)
+    }
     
 }
